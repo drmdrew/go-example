@@ -11,5 +11,5 @@ jobs:
     steps:
       - checkout
       - run: go get ./...
-      - run: go build
+      - run: go test
 
